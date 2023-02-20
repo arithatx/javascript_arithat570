@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithat</title>
+</head>
+<body bgcolor ="#F7C8E0">
+    <h1>Welcome to Arithat's homepage</h1>
+    <p id="test"></p>
+    <script>
+        window.alert("Welcome to my website");
+        window.alert("YOYO");
+        document.getElementById("test").innerHTML = 5+3*6+2-4;
+        console.log(11+11);
+        var age = 20;
+        window.alert("20");
+        var lastname = "Thuesat";
+        window.alert("Thuesat");
+        var cars = ["Toyota","Honda","Ferrari"];
+        window.alert("Toyota","Honda","Ferrari");
+        var me = {firstName:"Arithat",lastName:"Thuesat"}
+        window.alert("Arithat","Thuesat");
+        var x =4;
+        var y =5;
+        var z = x + y;
+        document.getElementById("test").innerHTML = z;
+        function myFunction(name1,name2)
+        {
+            alert("Welcome " + name1 + ", คุณ " + name2);
+
+        }
+
+       // if else condition
+        a=0;
+        if(a==1) {
+        alert("a มีค่าเท่ากับ 1");}
+        else{
+        alert("a มีค่าไม่เท่ากับ 1");}
+        // else if condition
+        a=2;
+        if(a==1) {
+        alert("a มีค่าเท่ากับ 1");}
+        else if (a==2){
+        alert("a มีค่าเท่ากับ 2");}
+        else{
+        alert("a มีค่าไม่เท่ากับ 1");}
+
+    </script>
+    <button onclick="myFunction('ญาฎา','อริย์ธัช')">
+        Click me
+    </button>
+</body>
+</html>
